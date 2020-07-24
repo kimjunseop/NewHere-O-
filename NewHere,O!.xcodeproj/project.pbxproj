@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9411ACF224C97F9D00E67FEF /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411ACF124C97F9D00E67FEF /* LocationViewController.swift */; };
+		9432E87824C90F08005F0A4A /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9432E87724C90F08005F0A4A /* ResultModel.swift */; };
+		9432E87A24C91C90005F0A4A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9432E87924C91C90005F0A4A /* ResultViewController.swift */; };
+		9432E87E24C946E4005F0A4A /* SecondModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9432E87D24C946E4005F0A4A /* SecondModelViewController.swift */; };
+		9432E88024C95CF0005F0A4A /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9432E87F24C95CF0005F0A4A /* UserLocation.swift */; };
+		949621BB24CA6E49007015F0 /* calendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949621BA24CA6E49007015F0 /* calendarViewController.swift */; };
 		949C00C024C80A5E00B472CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C00BF24C80A5E00B472CB /* AppDelegate.swift */; };
 		949C00C224C80A5E00B472CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C00C124C80A5E00B472CB /* SceneDelegate.swift */; };
-		949C00C424C80A5E00B472CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C00C324C80A5E00B472CB /* ViewController.swift */; };
 		949C00C724C80A5E00B472CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949C00C524C80A5E00B472CB /* Main.storyboard */; };
 		949C00C924C80A5F00B472CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949C00C824C80A5F00B472CB /* Assets.xcassets */; };
 		949C00CC24C80A5F00B472CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949C00CA24C80A5F00B472CB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9411ACF124C97F9D00E67FEF /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		9432E87724C90F08005F0A4A /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
+		9432E87924C91C90005F0A4A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		9432E87D24C946E4005F0A4A /* SecondModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondModelViewController.swift; sourceTree = "<group>"; };
+		9432E87F24C95CF0005F0A4A /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		949621BA24CA6E49007015F0 /* calendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarViewController.swift; sourceTree = "<group>"; };
 		949C00BC24C80A5E00B472CB /* NewHere,O!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewHere,O!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		949C00BF24C80A5E00B472CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		949C00C124C80A5E00B472CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		949C00C324C80A5E00B472CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		949C00C624C80A5E00B472CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		949C00C824C80A5F00B472CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		949C00CB24C80A5F00B472CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,13 +66,18 @@
 		949C00BE24C80A5E00B472CB /* NewHere,O! */ = {
 			isa = PBXGroup;
 			children = (
-				949C00BF24C80A5E00B472CB /* AppDelegate.swift */,
-				949C00C124C80A5E00B472CB /* SceneDelegate.swift */,
-				949C00C324C80A5E00B472CB /* ViewController.swift */,
 				949C00C524C80A5E00B472CB /* Main.storyboard */,
+				9432E87D24C946E4005F0A4A /* SecondModelViewController.swift */,
+				9432E87F24C95CF0005F0A4A /* UserLocation.swift */,
+				9432E87724C90F08005F0A4A /* ResultModel.swift */,
+				9432E87924C91C90005F0A4A /* ResultViewController.swift */,
+				949C00C124C80A5E00B472CB /* SceneDelegate.swift */,
+				949C00BF24C80A5E00B472CB /* AppDelegate.swift */,
 				949C00C824C80A5F00B472CB /* Assets.xcassets */,
 				949C00CA24C80A5F00B472CB /* LaunchScreen.storyboard */,
 				949C00CD24C80A5F00B472CB /* Info.plist */,
+				9411ACF124C97F9D00E67FEF /* LocationViewController.swift */,
+				949621BA24CA6E49007015F0 /* calendarViewController.swift */,
 			);
 			path = "NewHere,O!";
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949C00C424C80A5E00B472CB /* ViewController.swift in Sources */,
+				949621BB24CA6E49007015F0 /* calendarViewController.swift in Sources */,
+				9411ACF224C97F9D00E67FEF /* LocationViewController.swift in Sources */,
+				9432E87A24C91C90005F0A4A /* ResultViewController.swift in Sources */,
+				9432E87E24C946E4005F0A4A /* SecondModelViewController.swift in Sources */,
+				9432E87824C90F08005F0A4A /* ResultModel.swift in Sources */,
+				9432E88024C95CF0005F0A4A /* UserLocation.swift in Sources */,
 				949C00C024C80A5E00B472CB /* AppDelegate.swift in Sources */,
 				949C00C224C80A5E00B472CB /* SceneDelegate.swift in Sources */,
 			);
