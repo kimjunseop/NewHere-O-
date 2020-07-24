@@ -10,4 +10,4 @@
 
 ![목업사진](2mage/원래는.png)
 
-![결과물](2mage/Here,O!.mov)
+[GitHub][2mage/Here,O!.mov]
